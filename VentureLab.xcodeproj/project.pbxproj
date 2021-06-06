@@ -13,6 +13,14 @@
 		32FA7CF3266D06A400A91CB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FA7CF2266D06A400A91CB8 /* Preview Assets.xcassets */; };
 		32FA7CFE266D06A400A91CB8 /* VentureLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7CFD266D06A400A91CB8 /* VentureLabTests.swift */; };
 		32FA7D09266D06A400A91CB8 /* VentureLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D08266D06A400A91CB8 /* VentureLabUITests.swift */; };
+		32FA7D1D266D096800A91CB8 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D1C266D096800A91CB8 /* ConversationsViewController.swift */; };
+		32FA7D1F266D0A5800A91CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FA7D1E266D0A5800A91CB8 /* Main.storyboard */; };
+		32FA7D22266D0B8800A91CB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D21266D0B8800A91CB8 /* LoginViewController.swift */; };
+		32FA7D24266D0BAF00A91CB8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D23266D0BAF00A91CB8 /* RegisterViewController.swift */; };
+		32FA7D26266D0BCF00A91CB8 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D25266D0BCF00A91CB8 /* PhotoViewerViewController.swift */; };
+		32FA7D28266D0BE500A91CB8 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D27266D0BE500A91CB8 /* VideoPlayerViewController.swift */; };
+		32FA7D2A266D0C0600A91CB8 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D29266D0C0600A91CB8 /* NewConversationViewController.swift */; };
+		32FA7D2C266D0C1B00A91CB8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FA7D2B266D0C1B00A91CB8 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,15 @@
 		32FA7D04266D06A400A91CB8 /* VentureLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VentureLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FA7D08266D06A400A91CB8 /* VentureLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentureLabUITests.swift; sourceTree = "<group>"; };
 		32FA7D0A266D06A400A91CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FA7D1C266D096800A91CB8 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		32FA7D1E266D0A5800A91CB8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		32FA7D20266D0B0C00A91CB8 /* VentureLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VentureLab.entitlements; sourceTree = "<group>"; };
+		32FA7D21266D0B8800A91CB8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32FA7D23266D0BAF00A91CB8 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		32FA7D25266D0BCF00A91CB8 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		32FA7D27266D0BE500A91CB8 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		32FA7D29266D0C0600A91CB8 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		32FA7D2B266D0C1B00A91CB8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +112,12 @@
 		32FA7CEA266D06A300A91CB8 /* VentureLab */ = {
 			isa = PBXGroup;
 			children = (
-				32FA7CEB266D06A300A91CB8 /* VentureLabApp.swift */,
-				32FA7CED266D06A300A91CB8 /* ContentView.swift */,
-				32FA7CEF266D06A400A91CB8 /* Assets.xcassets */,
+				32FA7D20266D0B0C00A91CB8 /* VentureLab.entitlements */,
+				32FA7D1A266D086300A91CB8 /* Resources */,
+				32FA7D19266D084C00A91CB8 /* ViewModels */,
+				32FA7D18266D084500A91CB8 /* Models */,
+				32FA7D17266D083F00A91CB8 /* Views */,
+				32FA7D16266D083300A91CB8 /* Controllers */,
 				32FA7CF4266D06A400A91CB8 /* Info.plist */,
 				32FA7CF1266D06A400A91CB8 /* Preview Content */,
 			);
@@ -128,6 +148,60 @@
 				32FA7D0A266D06A400A91CB8 /* Info.plist */,
 			);
 			path = VentureLabUITests;
+			sourceTree = "<group>";
+		};
+		32FA7D16266D083300A91CB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32FA7D1C266D096800A91CB8 /* ConversationsViewController.swift */,
+				32FA7D21266D0B8800A91CB8 /* LoginViewController.swift */,
+				32FA7D23266D0BAF00A91CB8 /* RegisterViewController.swift */,
+				32FA7D25266D0BCF00A91CB8 /* PhotoViewerViewController.swift */,
+				32FA7D27266D0BE500A91CB8 /* VideoPlayerViewController.swift */,
+				32FA7D29266D0C0600A91CB8 /* NewConversationViewController.swift */,
+				32FA7D2B266D0C1B00A91CB8 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32FA7D17266D083F00A91CB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32FA7D1B266D090A00A91CB8 /* Storyboards */,
+				32FA7CED266D06A300A91CB8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		32FA7D18266D084500A91CB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32FA7D19266D084C00A91CB8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		32FA7D1A266D086300A91CB8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32FA7CEF266D06A400A91CB8 /* Assets.xcassets */,
+				32FA7CEB266D06A300A91CB8 /* VentureLabApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		32FA7D1B266D090A00A91CB8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				32FA7D1E266D0A5800A91CB8 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FA7D1F266D0A5800A91CB8 /* Main.storyboard in Resources */,
 				32FA7CF3266D06A400A91CB8 /* Preview Assets.xcassets in Resources */,
 				32FA7CF0266D06A400A91CB8 /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FA7D22266D0B8800A91CB8 /* LoginViewController.swift in Sources */,
+				32FA7D24266D0BAF00A91CB8 /* RegisterViewController.swift in Sources */,
+				32FA7D2A266D0C0600A91CB8 /* NewConversationViewController.swift in Sources */,
+				32FA7D1D266D096800A91CB8 /* ConversationsViewController.swift in Sources */,
+				32FA7D28266D0BE500A91CB8 /* VideoPlayerViewController.swift in Sources */,
 				32FA7CEE266D06A300A91CB8 /* ContentView.swift in Sources */,
+				32FA7D2C266D0C1B00A91CB8 /* ProfileViewController.swift in Sources */,
 				32FA7CEC266D06A300A91CB8 /* VentureLabApp.swift in Sources */,
+				32FA7D26266D0BCF00A91CB8 /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VentureLab/VentureLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VentureLab/Preview Content\"";
 				DEVELOPMENT_TEAM = C3YR3CBXLW;
@@ -429,6 +512,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.VentureLab.VentureLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VentureLab/VentureLab.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"VentureLab/Preview Content\"";
 				DEVELOPMENT_TEAM = C3YR3CBXLW;
@@ -451,6 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.VentureLab.VentureLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
